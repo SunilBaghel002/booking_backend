@@ -29,7 +29,7 @@ const app = express();
 app.use(
   cors({
     credentials: true,
-    origin: "https://booking-frontend-lime.vercel.app/",
+    origin: "https://booking-frontend-lime.vercel.app",
     methods: ["GET", "POST", "DELETE", "PUT"],
     allowedHeaders: ["Content-Type", "Authorization", "Cookie"],
   })
